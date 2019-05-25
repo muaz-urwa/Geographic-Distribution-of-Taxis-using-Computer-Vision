@@ -17,7 +17,19 @@ Dataset was created by collecting road images from google street view and open s
 
 <img src="Test_Model.jpg">
 
-### Results
+### Analysis
+
+Follwoing analyis was performed [code](https://github.com/muaz-urwa/Geographic-Distribution-of-Taxis-using-Computer-Vision/blob/master/Geographic%20Distribution%20of%20Taxis%20NYC.ipynb):
+
+- Loads shapefiles for neighborhoods in NYC
+- Loads shapefile for streets in NYC
+- Takes neighborhoods to analyze and sample size for each neighborhood as parameter
+- For each neighborhood it computes points equal to sample size on streets (using spatial join)
+- Pulls out the images for selected geocoordinates from google street view
+- Uses pretrained Custom Vision Taxi detection model to count taxis in each neighborhood sample
+- Visualizes the results
+
+
 
 <img src="count.png">
 
