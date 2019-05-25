@@ -1,5 +1,6 @@
 # Geographic-Distribution-of-Taxis-using-Computer-Vision
 
+This work was done for [ARGO](http://www.argolabs.org/) during winter internship 2018-19. [This](https://github.com/Streets-Data-Collaborative) repository features this and other cool open source projects by ARGO. 
 
 This repository contains code for:
 - creating a geotagged dataset of road images using open street cam [code](https://github.com/muaz-urwa/Geographic-Distribution-of-Taxis-using-Computer-Vision/blob/master/Create%20Image%20Dataset%20from%20Open%20Street%20Cam.ipynb)
